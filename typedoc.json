@@ -1,0 +1,10 @@
+{
+    // Comments are supported, like tsconfig.json
+    "out": "docs/typedoc",
+    "entryPointStrategy": "expand",
+    "entryPoints": ["src"],
+    "plugin": ["typedoc-plugin-merge-modules"],
+    "mergeModulesRenameDefaults": true,
+    "mergeModulesMergeMode": "module",
+    "readme": "README.md"
+}

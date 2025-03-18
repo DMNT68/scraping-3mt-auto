@@ -1,0 +1,69 @@
+body {
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    background: #F6E6E0;
+  }
+
+  .centerDiv {
+    display: grid;
+    height: 90vh;
+    place-items: center;
+  }
+
+  .centerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+
+  .title {
+    position: absolute;
+    bottom: 210px;
+    font-weight: bold;
+  }
+  .title2 {
+    position: absolute;
+    bottom: 165px;
+  }
+
+  .logo {
+    width: 500px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px 0px;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+  }	
+
+  .logo-bit {
+    width: 40px;
+    margin: 10px;
+  }
+
+  .copyright {
+    color: white;
+    font-size: 11px;
+  }
+
+
+
+
+  @media only screen and (max-width: 800px) {
+    .logo{
+      width: 330px;
+    }
+    
+  }
+
+  
+  
